@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="Style.css"/>
+  </head>
+  <body>
+    <header id="header">
+      <img src="https://via.placeholder.com/100x50?text=Logo" alt="Company Logo" id="header-img" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="features" class="section">
+        <h2>Awesome Features</h2>
+        <p>Explore the most exciting features that make our product irresistible.</p>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <h2>How It Works</h2>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="pricing" class="section">
+        <h2>Pricing</h2>
+        <p>We offer transparent and simple pricing for everyone.</p>
+      </section>
+
+      <section id="signup" class="section">
+        <h2>Stay Updated!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Subscribe" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
