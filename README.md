@@ -8,7 +8,7 @@ A modern, responsive landing page designed with accessibility and performance in
 
 ## 📸 Screenshots
 
-![Hero Section](docs/landing-hero.png)
-![Pricing Section](docs/landing-pricing.png)
+![Hero Section](docs/landing-page-1.png)
+![Full Screenshot](docs/landing-page-2.jpeg)
 
 
